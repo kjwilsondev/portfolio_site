@@ -1,1 +1,1 @@
-web: gunicorn sadsite.wsgi --log-file -
+gunicorn --log-file=- sadsite.wsgi:application
