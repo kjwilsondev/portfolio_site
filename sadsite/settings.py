@@ -39,7 +39,7 @@ DB_HOST = os.getenv("DB_HOST")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sadsite.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'sadsite.herokuapp.com']
 
 
 # Application definition
