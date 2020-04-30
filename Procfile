@@ -1,1 +1,1 @@
-web: gunicorn sadsite.wsgi
+web: gunicorn sadsite.wsgi --preload
