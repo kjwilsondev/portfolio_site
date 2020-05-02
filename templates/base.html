@@ -5,24 +5,76 @@
     <title>Django Central</title>
     <meta name="google" content="notranslate" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../static/css/base.css" />
+    <link rel="stylesheet" href="../static/css/base.css?{% now 'U' %}" />
   </head>
 
   <body>
     <!-- Navigation -->
     <div class="navbar">
-      <!-- Music Releases-->
-      <!-- Tech Projects -->
-      <!-- Events -->
-      OK
-      <!-- Beat Store -->
-      <!-- Clothes -->
-      <!-- Inquires  -->
-      <!-- -->
-      <!-- Team -->
-      <!-- About -->
-      <!-- Mission -->
-      <!-- Submit Work -->
+      <div class="navbar-title">
+        <ul>
+          <li>
+            KJ Wilson
+          </li>
+          <li>
+            Seamless Landing Pages
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-items">
+        <ul>
+          <!-- All Posts -->
+          <li>
+            <a href="">
+              RECENT
+            </a>
+          </li>
+          <!-- Music Releases-->
+          <!-- Events -->
+          <li>
+            {% comment %}
+            <!-- <a href="{% url 'music' %}"> -->
+            {% endcomment %}
+            <a href="">
+              MUSIC
+            </a>
+          </li>
+          <!-- Tech Projects -->
+          <li>
+            {% comment %}
+            <!-- <a href="{% url 'tech' %}"> -->
+            {% endcomment %}
+            <a href="">
+              TECH
+            </a>
+          </li>
+          <!-- Purchasable Projects -->
+          <!-- Beat Store -->
+          <!-- Clothes Store-->
+          <!-- Contract Inqueries -->
+          <!-- Donate -->
+          <li>
+            {% comment %}
+            <!-- <a href="{% url 'store' %}"> -->
+            {% endcomment %}
+            <a href="">
+              STORE
+            </a>
+          </li>
+          <!-- Team -->
+          <!-- About -->
+          <!-- Mission -->
+          <!-- Submit Work-->
+          <li>
+            {% comment %}
+            <!-- <a href="{% url 'team' %}"> -->
+            {% endcomment %}
+            <a href="">
+              TEAM
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
     {% block content %}{% endblock content %}
     <!-- Footer -->
