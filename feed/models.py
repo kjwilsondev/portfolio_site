@@ -24,3 +24,13 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+# Content
+# Music Post -> Spotify, Apple Music, Soundcloud
+# Videoes -> Youtube, Instagram
+# Clothes Post -> Store app
+
+# Progress Content
+# Sprint Doc Post -> PDF
+# Project Progress Post
+# Quote Post -> Twitter

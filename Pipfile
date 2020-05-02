@@ -7,7 +7,6 @@ verify_ssl = true
 
 [packages]
 psycopg2-binary = "*"
-django = "*"
 django-heroku = "*"
 gunicorn = "*"
 python-dotenv = "*"
